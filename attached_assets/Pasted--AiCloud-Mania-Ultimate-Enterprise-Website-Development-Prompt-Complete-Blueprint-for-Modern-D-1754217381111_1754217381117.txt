@@ -1,0 +1,687 @@
+# AiCloud Mania – Ultimate Enterprise Website Development Prompt
+## Complete Blueprint for Modern DevOps, Cloud & AI Services Platform
+
+### **OVERVIEW**
+Create a fully enterprise-grade, modern website for **AiCloud Mania** that visually and functionally surpasses both athinfosys.com and aascloud.info. This must be a comprehensive, production-ready platform showcasing DevOps, Cloud Architecture, and AI/ML services with professional credibility, advanced animations, and seamless user experience.
+
+---
+
+## **1. BRAND IDENTITY & VISUAL SYSTEM**
+
+### **Logo & Branding**
+- **Primary Logo**: High-resolution "AiCloud Mania" logo in SVG/PNG format
+- **Placement**: Top-left header, always visible across all pages
+- **Styling**: Subtle drop-shadow, clean edges, professional appearance
+- **Typography**: Poppins or Montserrat (600-700 weight)
+- **Hover Effect**: Scale(1.02) with soft blue glow animation
+- **Brand Consistency**: Logo must appear on loading screens, email signatures, and all marketing materials
+
+### **Color Palette & Design System**
+```css
+:root {
+  --primary-blue: #2563EB;
+  --accent-teal: #06B6D4;
+  --dark-navy: #1E293B;
+  --charcoal: #374151;
+  --pure-white: #FFFFFF;
+  --light-gray: #F8FAFC;
+  --success-green: #10B981;
+  --warning-amber: #F59E0B;
+  --gradient-primary: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+  --gradient-dark: linear-gradient(135deg, #1E293B 0%, #374151 100%);
+}
+```
+
+### **Typography System**
+- **Headers/Logo**: 'Poppins', 'Montserrat' (Google Fonts)
+  - Weight: 600-700
+  - Desktop: 2.2rem, Mobile: 1.8rem
+  - Letter-spacing: 1px
+- **Body Text**: 'Inter', 'Segoe UI', system-ui
+  - Weight range: 300-700
+- **Navigation**: Clean, readable sans-serif
+- **NO neon, sci-fi, or unprofessional fonts**
+
+### **Visual Assets Requirements**
+- All icons must be official company logos in crisp SVG/PNG format
+- Technology logos: AWS, Azure, GCP, Docker, Kubernetes, etc.
+- Partner/client logos: Professional, high-resolution
+- Service icons: Modern, minimalist, professional style
+- All images optimized for web (WebP format preferred)
+
+---
+
+## **2. WEBSITE STRUCTURE & CORE FEATURES**
+
+### **A. Hero Section - Premium Landing Experience**
+
+**Background & Visual Design:**
+- **Gradient Background**: Primary blue to teal (#2563EB → #06B6D4)
+- **Geometric Overlays**: Subtle SVG patterns (circles, polygons, lines)
+- **Animated Elements**: Floating geometric shapes with CSS keyframe animations
+- **Parallax Effect**: Background moves at different speed during scroll
+
+**Content Layout:**
+- **Company Logo**: Prominent left placement
+- **Headline**: "Expert DevOps, Cloud & AI Solutions"
+- **Subheadline**: "From Startups to Enterprise – We Scale Your Technology Infrastructure"
+- **Statistics Row**: 
+  - Years of Experience
+  - Team Size
+  - Projects Completed
+  - Client Satisfaction Rate
+
+**Call-to-Action Buttons:**
+- **Primary CTA**: "Schedule Free Consultation" (solid blue, hover teal with scale effect)
+- **Secondary CTA**: "View Our Portfolio" (outline style, hover filled)
+
+**Advanced Animations:**
+- Hero content fades in and slides up on page load
+- Parallax scrolling background
+- Floating shapes drift subtly (not excessive)
+- Smooth transitions between all elements
+- Loading animation for page entry
+
+### **B. Services Section - Interactive Showcase**
+
+**Core Services (8 Primary Offerings):**
+1. **Cloud Architecture & Migration**
+   - AWS, Azure, GCP implementations
+   - Serverless architecture, VPC design, containerization
+   - Multi-cloud strategies and hybrid solutions
+
+2. **AI & Machine Learning Solutions**
+   - Custom ML model development
+   - MLOps pipeline implementation
+   - NLP, computer vision, automation
+   - TensorFlow, PyTorch, scikit-learn
+
+3. **DevOps & Site Reliability Engineering**
+   - CI/CD pipeline design and implementation
+   - Infrastructure as Code (Terraform, Ansible)
+   - Kubernetes orchestration
+   - 24/7 monitoring and support
+
+4. **Application Development & Modernization**
+   - Full-stack web development
+   - Microservices architecture
+   - API development and integration
+   - Legacy system modernization
+
+5. **Data Engineering & Analytics**
+   - Data pipeline construction
+   - Data warehouse implementation
+   - Business intelligence solutions
+   - Real-time analytics and visualization
+
+6. **Cybersecurity & Compliance**
+   - Zero-trust security implementation
+   - Security audits and assessments
+   - SOC2, GDPR, HIPAA compliance
+   - Penetration testing
+
+7. **Managed Cloud Services**
+   - 24/7 infrastructure monitoring
+   - Disaster recovery planning
+   - Performance optimization
+   - Ongoing maintenance and support
+
+8. **Digital Transformation Consulting**
+   - Technology strategy development
+   - Workflow automation
+   - Process optimization
+   - Change management
+
+**Service Cards Design:**
+- **Style**: Clean white cards with smooth shadows
+- **Hover Effects**: 
+  - Gentle scale(1.02) transformation
+  - Accent border color change
+  - Icon color animation
+  - Subtle lift with enhanced shadow
+- **Content**: Professional icon, service title, concise description
+- **Layout**: Responsive grid (3-4 desktop, 1-2 mobile)
+
+**Interactive Slider Features:**
+- **Desktop**: Horizontal swiper showing 3-4 services simultaneously
+- **Mobile**: Touch-enabled swipe, 1-2 services visible
+- **Navigation**: Arrow controls and dot indicators
+- **Auto-play**: Pause on hover, resume on mouse leave
+- **Special Feature**: Click to scroll service to top of viewport (smooth scroll animation)
+
+**Advanced Animations:**
+- Cards fade in as they enter viewport
+- Staggered animation timing for visual appeal
+- Smooth transitions between slides
+- Icon animations on hover
+- Border and shadow color transitions
+
+### **C. Technology Ecosystem Grid - Interactive Tech Stack**
+
+**Technology Categories:**
+- **Cloud Platforms**: AWS, Azure, GCP, IBM Cloud, Oracle Cloud, VMware, DigitalOcean
+- **AI/ML Frameworks**: Python, TensorFlow, PyTorch, scikit-learn, Hugging Face
+- **Development**: React, Node.js, Django, Flask, Spring Boot, .NET
+- **Databases**: PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch, Cassandra
+- **DevOps Tools**: Docker, Kubernetes, Jenkins, GitLab, GitHub Actions, Terraform, Ansible
+
+**Interactive Features:**
+- **Filterable Grid**: Category buttons with smooth CSS transitions
+- **Search Functionality**: Real-time filtering of technologies
+- **Card Design**: White background, subtle shadow, technology logo + name
+- **Hover Effects**: Scale animation, shadow enhancement
+- **Responsive Layout**: Adapts to screen size automatically
+
+**Advanced Interactions:**
+- Smooth filtering animations
+- Category highlight effects
+- Search result animations
+- Loading states for dynamic content
+
+### **D. Partners & Clients Carousel - Trust Building**
+
+**Client Showcase:**
+- **Sample Clients**: Fortune 500 companies, startups, government agencies
+- **Logo Display**: High-quality, official client logos
+- **Carousel Features**:
+  - Infinite horizontal scroll
+  - Pause on hover functionality
+  - Touch/swipe enabled for mobile
+  - Auto-play with customizable speed
+
+**Carousel Implementation:**
+- **Library Options**: Swiper.js, Slick Carousel, or custom CSS
+- **Design**: White cards with client logos
+- **Animation**: Smooth, continuous scroll
+- **Responsiveness**: Adapts logo size and spacing
+
+### **E. About Section - Company Credibility**
+
+**Team Showcase:**
+- **Team Grid**: Professional layout with member cards
+- **Member Info**: Name, role, expertise area
+- **Placeholder Images**: Professional, consistent styling if photos unavailable
+- **Animation**: Fade-in on scroll, staggered timing
+
+**Company Information:**
+- **Mission Statement**: Clear, compelling company story
+- **Core Values**: 
+  - Technical Excellence
+  - Innovation Leadership
+  - Reliability & Trust
+  - Client Success Focus
+- **Visual Elements**: Check icons, professional formatting
+
+**Certifications & Compliance:**
+- **Industry Badges**: SOC2, GDPR, ISO certifications
+- **Status Indicators**: "Certified" or "In Progress"
+- **Visual Design**: Official badge icons, clean layout
+
+**Advanced Animations:**
+- Team cards flip/slide up on scroll
+- Value items animate in sequence
+- Certification badges have subtle hover effects
+
+### **F. Portfolio & Case Studies - Project Showcase**
+
+**Case Study Structure:**
+- **Project Information**: Client name, industry, project duration
+- **Challenge**: Detailed problem description
+- **Solution**: Technical approach and implementation
+- **Results**: Quantifiable outcomes and metrics
+- **Tech Stack**: Visual icons of technologies used
+
+**Interactive Features:**
+- **Expand/Collapse**: Smooth accordion-style details
+- **Industry Filtering**: Category-based project filtering
+- **Search Functionality**: Find projects by technology or industry
+- **Modal Windows**: Detailed case study viewing
+
+**Advanced Interactions:**
+- Card expansion animations
+- Filter transition effects
+- Image galleries with lightbox
+- Tech stack icon animations
+
+### **G. Contact Section - Lead Generation**
+
+**Professional Contact Form:**
+- **Required Fields**: Name, email, phone, company
+- **Optional Fields**: Project type (dropdown), budget range, detailed message
+- **Validation**: Real-time field validation with error messages
+- **Security**: CAPTCHA integration, spam protection
+
+**Form Features:**
+- **Animated Feedback**: Success/error messages with slide animations
+- **Progress Indicators**: Multi-step form with progress bar
+- **Auto-save**: Draft saving for longer forms
+- **Mobile Optimization**: Touch-friendly inputs and buttons
+
+**Additional Contact Elements:**
+- **Interactive Map**: OpenStreetMap embed (free alternative to Google Maps)
+- **Office Information**: Address, phone, business hours
+- **Response Promise**: 24-hour response commitment
+- **Social Media Links**: Professional platform links
+
+**Advanced Animations:**
+- Input focus highlighting
+- Button loading states
+- Success/error message animations
+- Form validation visual feedback
+
+### **H. Footer - Comprehensive Information Hub**
+
+**Footer Structure:**
+- **Company Information**: Logo, brief description, contact details
+- **Service Links**: Quick navigation to all service pages
+- **Compliance Section**: Certification badges and policy links
+- **Social Media**: Professional platform links
+
+**Design Specifications:**
+- **Background**: Dark navy (#1E293B)
+- **Layout**: Four-column responsive grid
+- **Typography**: Light text with proper contrast
+- **Links**: Hover effects with accent colors
+
+**Back to Top Button:**
+- **Position**: Fixed bottom-right corner
+- **Design**: Circular button with upward arrow
+- **Visibility**: Appears after 300px scroll
+- **Animation**: Slide-in with fade effect
+- **Functionality**: Smooth scroll to page top
+- **Styling**: Primary blue background, white icon
+
+```html
+<!-- Back to Top Button Implementation -->
+<button id="scrollToTopBtn" class="fixed bottom-8 right-8 p-4 bg-primary-blue text-white rounded-full shadow-lg transition transform hover:scale-105 z-50" aria-label="Back to top">
+  ↑
+</button>
+<script>
+window.addEventListener('scroll', function() {
+  const btn = document.getElementById('scrollToTopBtn');
+  btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+});
+document.getElementById('scrollToTopBtn').onclick = function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+</script>
+```
+
+---
+
+## **3. ADVANCED ANIMATIONS & INTERACTIONS**
+
+### **Global Animation System**
+- **Scroll Animations**: All sections animate into view using Intersection Observer API
+- **Loading Animations**: Professional page load sequences
+- **Micro-interactions**: Button hovers, form interactions, card transitions
+- **Performance**: Hardware-accelerated CSS transforms and transitions
+
+### **Specific Animation Requirements**
+- **Hero Section**: Parallax scrolling, floating geometric shapes
+- **Service Cards**: Scale and shadow effects on hover
+- **Technology Grid**: Filtering animations with smooth transitions
+- **Client Carousel**: Continuous scroll with pause-on-hover
+- **Portfolio**: Expand/collapse animations for case studies
+- **Contact Form**: Real-time validation with visual feedback
+
+### **Animation Performance**
+- **60 FPS**: All animations maintain smooth frame rates
+- **GPU Acceleration**: Use transform3d() for better performance
+- **Reduced Motion**: Respect user preferences for reduced motion
+- **Loading States**: Professional loading indicators for dynamic content
+
+---
+
+## **4. TECHNICAL IMPLEMENTATION & BACKEND**
+
+### **Frontend Deployment**
+- **Platform**: Netlify (free tier)
+- **Framework Options**: React, Vue.js, or vanilla HTML/CSS/JS
+- **Build Process**: Optimized bundling and minification
+- **CDN**: Automatic global content delivery
+
+### **Backend Architecture - Serverless & Free**
+- **API Functions**: Netlify Functions (Node.js)
+- **Database**: Supabase (free PostgreSQL hosting)
+- **Authentication**: Netlify Identity or JWT implementation
+- **Email Service**: Nodemailer with Gmail SMTP or SendGrid free tier
+
+### **Database Schema**
+```sql
+-- Leads Management
+CREATE TABLE leads (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  phone VARCHAR(20),
+  company VARCHAR(100),
+  project_type VARCHAR(50),
+  budget_range VARCHAR(30),
+  message TEXT,
+  status VARCHAR(20) DEFAULT 'new',
+  source VARCHAR(50),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Analytics Tracking
+CREATE TABLE page_views (
+  id SERIAL PRIMARY KEY,
+  page_url VARCHAR(255),
+  user_agent TEXT,
+  ip_address INET,
+  referrer VARCHAR(255),
+  session_id VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Case Studies Management
+CREATE TABLE case_studies (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(200) NOT NULL,
+  client_name VARCHAR(100),
+  industry VARCHAR(50),
+  challenge TEXT,
+  solution TEXT,
+  results TEXT,
+  tech_stack JSONB,
+  images JSONB,
+  featured BOOLEAN DEFAULT FALSE,
+  published BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Newsletter Subscribers
+CREATE TABLE newsletter_subscribers (
+  id SERIAL PRIMARY KEY,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  name VARCHAR(100),
+  subscribed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  status VARCHAR(20) DEFAULT 'active'
+);
+
+-- Blog Posts
+CREATE TABLE blog_posts (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(200) NOT NULL,
+  slug VARCHAR(200) UNIQUE,
+  content TEXT,
+  excerpt TEXT,
+  featured_image VARCHAR(255),
+  author VARCHAR(100),
+  published BOOLEAN DEFAULT FALSE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+### **Serverless API Functions**
+
+**Lead Management API (/api/leads.js):**
+```javascript
+const { Pool } = require('pg');
+const nodemailer = require('nodemailer');
+
+const pool = new Pool({
+  connectionString: process.env.SUPABASE_POSTGRES_URL,
+  ssl: { rejectUnauthorized: false }
+});
+
+exports.handler = async (event) => {
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: 'Method Not Allowed' };
+  }
+
+  const { name, email, phone, company, project_type, budget_range, message } = JSON.parse(event.body);
+
+  // Input validation
+  if (!name || !email || !message) {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: 'Required fields missing' })
+    };
+  }
+
+  try {
+    // Store lead in database
+    const result = await pool.query(
+      'INSERT INTO leads (name, email, phone, company, project_type, budget_range, message) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING id',
+      [name, email, phone, company, project_type, budget_range, message]
+    );
+
+    // Send notification email
+    const transporter = nodemailer.createTransporter({
+      service: 'gmail',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
+      }
+    });
+
+    await transporter.sendMail({
+      from: process.env.EMAIL_USER,
+      to: process.env.NOTIFICATION_EMAIL,
+      subject: 'New Lead from AiCloud Mania Website',
+      html: `
+        <h2>New Lead Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Company:</strong> ${company}</p>
+        <p><strong>Project Type:</strong> ${project_type}</p>
+        <p><strong>Budget Range:</strong> ${budget_range}</p>
+        <p><strong>Message:</strong> ${message}</p>
+      `
+    });
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ 
+        success: true, 
+        leadId: result.rows[0].id,
+        message: 'Thank you for your inquiry. We will respond within 24 hours.'
+      })
+    };
+  } catch (error) {
+    console.error('Error processing lead:', error);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: 'Internal server error' })
+    };
+  }
+};
+```
+
+**Analytics API (/api/analytics.js):**
+```javascript
+const { Pool } = require('pg');
+
+const pool = new Pool({
+  connectionString: process.env.SUPABASE_POSTGRES_URL,
+  ssl: { rejectUnauthorized: false }
+});
+
+exports.handler = async (event) => {
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: 'Method Not Allowed' };
+  }
+
+  const { page_url, user_agent, referrer, session_id } = JSON.parse(event.body);
+  const ip_address = event.headers['x-forwarded-for'] || event.headers['x-real-ip'];
+
+  try {
+    await pool.query(
+      'INSERT INTO page_views (page_url, user_agent, ip_address, referrer, session_id) VALUES ($1, $2, $3, $4, $5)',
+      [page_url, user_agent, ip_address, referrer, session_id]
+    );
+
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ success: true })
+    };
+  } catch (error) {
+    console.error('Analytics error:', error);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: 'Failed to log analytics' })
+    };
+  }
+};
+```
+
+### **Admin Dashboard Features**
+- **Lead Management**: View, sort, filter, and manage all leads
+- **Analytics Dashboard**: Traffic statistics, conversion rates, popular pages
+- **Content Management**: Add/edit case studies, blog posts, team members
+- **Email Management**: Newsletter subscribers, email templates
+- **Security**: Password-protected admin area with session management
+
+---
+
+## **5. SEO & PERFORMANCE OPTIMIZATION**
+
+### **Search Engine Optimization**
+- **Meta Tags**: Comprehensive title, description, keywords for each page
+- **Open Graph**: Social media sharing optimization
+- **Schema Markup**: Structured data for better search visibility
+- **XML Sitemap**: Automated sitemap generation
+- **Robots.txt**: Proper search engine crawling instructions
+
+### **Performance Requirements**
+- **Page Speed**: Target 90+ Google PageSpeed Insights score
+- **Core Web Vitals**: 
+  - LCP (Largest Contentful Paint) < 2.5s
+  - FID (First Input Delay) < 100ms
+  - CLS (Cumulative Layout Shift) < 0.1
+  - INP (Interaction to Next Paint) < 200ms
+
+### **Optimization Techniques**
+- **Image Optimization**: WebP format, lazy loading, responsive images
+- **Code Splitting**: Dynamic imports for JavaScript bundles
+- **CSS Optimization**: Critical CSS inlining, unused CSS removal
+- **Caching**: Browser caching headers, CDN optimization
+- **Minification**: HTML, CSS, JavaScript compression
+
+### **Mobile Optimization**
+- **Responsive Design**: Mobile-first approach
+- **Touch Optimization**: Proper touch targets, gesture support
+- **Performance**: Optimized for slower mobile connections
+- **Progressive Web App**: Service worker for offline functionality
+
+---
+
+## **6. ACCESSIBILITY & USER EXPERIENCE**
+
+### **Accessibility Standards**
+- **WCAG 2.1 AA Compliance**: Meet web accessibility guidelines
+- **Keyboard Navigation**: Full keyboard accessibility
+- **Screen Reader Support**: Proper ARIA labels and semantic HTML
+- **Color Contrast**: Minimum 4.5:1 contrast ratio for text
+- **Focus Management**: Clear focus indicators for all interactive elements
+
+### **User Experience Enhancements**
+- **Loading States**: Professional loading indicators
+- **Error Handling**: Graceful error messages and recovery
+- **Form Validation**: Real-time validation with helpful messages
+- **Navigation**: Intuitive menu structure and breadcrumbs
+- **Search Functionality**: Site-wide search with autocomplete
+
+---
+
+## **7. MARKETING & CLIENT ACQUISITION STRATEGY**
+
+### **Launch Strategy**
+- **Google Search Console**: Submit website for indexing
+- **Google My Business**: Create and optimize business profile
+- **LinkedIn Company Page**: Professional business presence
+- **Industry Directories**: Submit to relevant business directories
+
+### **Content Marketing**
+- **Blog Strategy**: 2-4 technical articles per month
+- **Case Study Development**: Document successful projects
+- **White Papers**: In-depth technical resources
+- **Video Content**: Service demonstrations and tutorials
+
+### **Lead Generation**
+- **Contact Forms**: Multiple conversion opportunities
+- **Free Consultations**: Low-barrier entry for prospects
+- **Resource Downloads**: Gated content for lead capture
+- **Newsletter Signup**: Regular communication with prospects
+
+### **Outreach Strategy**
+- **Email Marketing**: Personalized outreach to target companies
+- **Social Media**: LinkedIn content and engagement
+- **Industry Events**: Virtual and in-person networking
+- **Freelance Platforms**: Upwork, Guru, Freelancer profiles
+
+---
+
+## **8. FINAL IMPLEMENTATION REQUIREMENTS**
+
+### **Quality Standards**
+- **Enterprise-Grade**: Professional appearance and functionality
+- **Cross-Browser Compatible**: Works perfectly in Chrome, Firefox, Safari, Edge
+- **Device Responsive**: Flawless experience on desktop, tablet, mobile
+- **Fast Loading**: Sub-3 second page load times
+- **Secure**: HTTPS, form protection, data validation
+
+### **Deliverable Requirements**
+- **Complete Codebase**: All HTML, CSS, JavaScript, and backend functions
+- **Documentation**: Setup instructions, API documentation, maintenance guide
+- **Deployment Guide**: Step-by-step Netlify deployment instructions
+- **Environment Setup**: Environment variables and configuration
+- **Testing Suite**: Unit tests and integration tests
+
+### **Post-Launch Support**
+- **Monitoring Setup**: Error tracking and performance monitoring
+- **Analytics Integration**: Google Analytics and custom analytics
+- **Backup Strategy**: Database backups and disaster recovery
+- **Update Process**: Content management and feature updates
+
+---
+
+## **DEVELOPER HANDOFF PROMPT**
+
+"Create a comprehensive, enterprise-grade website for AiCloud Mania that completely surpasses athinfosys.com and aascloud.info in design, functionality, and user experience. The website must showcase DevOps, Cloud Architecture, and AI/ML services with absolute professional credibility.
+
+**Technical Requirements:**
+- Deploy on Netlify with serverless functions
+- Use Supabase for free PostgreSQL database
+- Implement all animations and interactions specified
+- Achieve 90+ PageSpeed Insights score
+- Ensure WCAG 2.1 AA accessibility compliance
+- Include comprehensive admin dashboard
+- Implement robust SEO optimization
+
+**Design Requirements:**
+- Professional color palette with blue/teal gradients
+- Poppins/Montserrat fonts for headers, Inter for body
+- Official AiCloud Mania logo prominently displayed
+- All technology and partner logos in high-resolution
+- Smooth animations and micro-interactions
+- Mobile-first responsive design
+
+**Functionality Requirements:**
+- Interactive service slider with scroll-to-top feature
+- Filterable technology ecosystem grid
+- Animated partner/client carousel
+- Expandable portfolio case studies
+- Professional contact form with validation
+- Floating back-to-top button
+- Comprehensive analytics tracking
+
+**Content Requirements:**
+- 8 core services with detailed descriptions
+- Technology showcase with 20+ platforms
+- Professional about section and team grid
+- Portfolio with expandable case studies
+- Blog functionality with admin management
+- Lead generation and CRM integration
+
+**No Personal Information:** Exclude any personal biography, work history, or non-company details. Focus solely on AiCloud Mania as a professional services company.
+
+**Deliverables:** Complete, production-ready website with full documentation, deployment guide, and admin access. All code must be enterprise-quality with proper error handling, security measures, and scalability considerations."
+
+---
+
+This prompt provides complete specifications for creating a world-class website that will establish AiCloud Mania as a premier technology services provider while utilizing only free hosting and database solutions.
